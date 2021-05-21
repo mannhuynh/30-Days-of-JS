@@ -28,10 +28,29 @@ window.addEventListener('keydown', playSound);
 
 // ADD CLICK BY MOUSE FUNCTIONALITY
 
-for (let i=0; i<keys.length; i++) {
-    keys[i].addEventListener('click', function ()  {
-        this.classList.add('playing');
-        
-    });
+
+// function mouseClick() {
+//     const buttonInnerHTML = this.innerHTML;
+//     clickSound(buttonInnerHTML);
+// }
+
+// for (let i=0; i<keys.length; i++) {
+//     keys[i].addEventListener('click', mouseClick
+//     // function ()  {
+//     //     this.classList.add('playing');
+//     //     mouseClick();
+//     // }
+//     );
     
-}
+// }
+
+// function clickSound(key) {
+//     switch (key) {
+//         case "boom":
+//             const boom = new Audio("sounds/boom.wav");
+//             boom.play;
+//             break;
+//         default:
+//             console.log();
+//     }
+// }
